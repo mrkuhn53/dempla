@@ -1,0 +1,68 @@
+103
+       1         : algori   | the algorithm for advancing the particle positions (1 or 2)
+       6         : ivers    | add extra input lines (3, 4, 5, or 6)
+     400         : ncownt   | fequency for updating non-periodic boundaries (0)
+       0         : iout(2)  | output files with avg. def. and gradients in layers (0 or 1)
+       0         : iout(3)  | output files with avg. stresses within layers (0 or 1)
+       1         : istart   | type of file defining the initial configuration (1, 2, or 3)
+       0         : iend     | type of file to be created at end of the run (0, 1, 2, or 3)
+       0         : idef     | reference configuration for reporting deformations (0)
+     500         : iupdtm   | max. no. of time steps between linked-list updates
+       0         : icirct   | compute and regularly update the particle graph (0 or 1)
+       9         : imodel   | model for long-range particle interactions
+       0         : nplatn   | number of additional D-files with boundary particles
+       5         : nloop1   | minimum number of iteration loops when algori=2
+       0         : iexact   | don't use the same mass for every particle
+       0         : isub     | number of submerged particles
+       1         : idamp    | standard or Potyondy/Cundall damping
+       0         : iheat    | temperature-dependent model
+       0         : icoef    | enable changing the friction coefficient during a run
+       3         : iporo    | include pore fluid pressure using poroelasticity
+       0         : ifree(11)| a free input integer.  Placeholder for future versions
+       0         : ifree(12)| a free input integer.  Placeholder for future versions
+       0         : ifree(13)| a free input integer.  Placeholder for future versions
+       0         : ifree(14)| a free input integer.  Placeholder for future versions
+       0         : ifree(15)| a free input integer.  Placeholder for future versions
+       0         : ifree(16)| a free input integer.  Placeholder for future versions
+       0         : ifree(17)| a free input integer.  Placeholder for future versions
+       0         : ifree(18)| a free input integer.  Placeholder for future versions
+    29.d9        : kn       | normal contact stiffness (force/indentation)
+     0.15        : kratio   | ratio of tangential/normal contact stiffnesses
+     0.40        : frict    | coefficient of friction at particle contacts
+     0.          : frictw   | coefficient of friction between particles and wall
+    -1.          : rho      | the mass density of the particle material
+     0.250       : sep      | threshold separation during the near-neighbor searches
+     0.03        : pcrit(1) | viscosity coefficient for translational body damping
+     0.05        : pcrit(2) | viscosity coefficient for rotational body damping
+     0.          : pcrit(3) | viscosity coefficient for contact damping
+     0.64        : xseed    | seed for assigning random initial velocities (when motion=1)
+     0.          : rmsvel   | rms initial velocity (when motion=1)
+     0.25        : pdif     | parameter for reducing Jager memory demand (when imodel>=6)
+     0.          : tmax     | maximum time for the simulation run
+   100.          : A_1      | shape factor for conical contact profile (A_1)
+    -1.          : dt       | time increment
+     0.          : gravty(1)| gravity in x_1 direction
+     0.          : gravty(2)| gravity in x_2 direction
+     0.          : gravty(3)| gravity in x_3 direction
+     0.          : p_o      | initial fluid pressure of pore liquid
+    31.8d9       : K_s      | bulk modulus of grain bodies
+     2.2d9       : K_f      | bulk modulus of pore fluid
+     1.00d0      : S_o      | initial fluid saturation of pore space at p_o (iporo=2,3)
+   100.d3        : p_atm    | the reference atmospheric pressure (iporo=2,3)
+     0.0187d0    : Hcc      | Henry's coefficient of pore liquid/gass (iporo=3)
+    72.75d-3     : gamm     | surface tension of pore bubbles (iporo=3)
+     0.0001d0    : D_o      | initial bubble diameter at p_o and S_o (iporo=3)
+     2.d13       : N_o      | number/density bubbles per unit initial pore volume(iporo=3)
+  2337.d0        : p_vap    | water vapor pressure, absolute pressure (iporo=3)
+    -1.d0        : p_wcav   | cavitation pressure relative to atm. pressure (iporo=3)
+     0.          : rfree(15)| placeholder
+     0.          : rfree(16)| placeholder
+     0.          : rfree(17)| placeholder
+     0.          : rfree(18)| placeholder
+     1.5         : palpha   | alpha power in contact profile (when imodel=9)
+                                                                                                   imicro
+       ************  Deformation-Stress Path Segments  **********             krotat           iflexc |             iplot
+   icontp (100000)   (10000)   (1000)    (100)      (10)      (1)                 |            idump  | |ibodyf    ipts2 |
+icontr |  rate_11 | rate_22 | rate_33 | rate_12 | rate_13 | rate_23    vrate  igoal   finalv  ipts |  | | |  defdot  |   |
+------|-|---------|---------|---------|---------|---------|---------|---------|--|-|---------|----|-|--|-|--|------|----|--|
+111000 1  0.000e+0  0.000e+0  0.000e+0  0.000e+0  0.000e+0  0.000e+0  0.000e+0 70 0     4000.  100 0  0 0  0     0.    0  0

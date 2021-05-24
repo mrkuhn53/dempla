@@ -1,0 +1,38 @@
+\begin{verbatim}
+Prototype RunFile for the DEM program Oval
+       2         : algori   | the algorithm for advancing the particle positions (1 or 2)
+       1         : ivers    | whether to include additional lines in this RunFile
+       0         : ncownt   | fequency for updating non-periodic boundaries (0)
+       0         : iout(2)  | output files with avg. def. and gradients in layers (0 or 1)
+       0         : iout(3)  | output files with avg. stresses within layers (0 or 1)
+       1         : istart   | type of file defining the initial configuration (1, 2, or 3)
+       0         : iend     | type of file to be created at end of the run (0, 1, 2, or 3)
+       0         : idef     | reference configuration for reporting deformations (0)
+     200         : iupdtm   | max. no. of time steps between linked-list updates
+       0         : icirct   | compute and regularly update the particle graph (0 or 1)
+       0         : imodel   | model for contact force
+       0         : nplatn   | number of additional files with boundary particles
+       8         : nloop1   | minimum number of iteration loops when algori=2
+     1.00        : kn       | normal stiffness (force/indentation) or G (shear modulus)
+     1.00        : kratio   | ratio tangential/normal stiffnesses or Poisson ratio
+     0.50        : frict    | coefficient of friction at particle contacts
+     0.50        : frictw   | coefficient of friction between particles and wall
+     0.          : rho      | the mass density of the particle material
+     0.400       : sep      | threshold separation during the near-neighbor searches
+     0.05        : pcrit(1) | viscosity coefficient for translational body damping
+     0.05        : pcrit(2) | viscosity coefficient for rotational body damping
+     0.          : pcrit(3) | viscosity coefficient for contact damping
+     0.64        : xseed    | seed for assigning random initial velocities (when motion=1)
+     0.          : rmsvel   | rms initial velocity (when motion=1)
+     0.          : pdif     | parameter for reducing Jager memory demand (when imodel=6)
+     0.          : tmax     | maximum time for the simulation run
+     0.          : A_1      | shape factor for conical contact profile (A_1)
+     0.          : dt       | time increment
+                                                                                         imicro
+       ************  Deformation-Stress Path Segments  **********   krotat           iflexc |             iplot
+        (100000)   (10000)   (1000)    (100)      (10)      (1)       |            idump  | |ibodyf    ipts2 |
+icontr| rate_11 | rate_22 | rate_33 | rate_12 | rate_13 | rate_23 igoal   finalv  ipts |  | | |  defdot  |   |
+------|---------|---------|---------|---------|---------|---------|--|-|---------|----|-|--|-|--|------|----|--|
+000000      0.        0.        0.         0.       0.        0.   70 0      10.     2 0  0 0  0    0.    0   0
+100000      0.     -5.0e-7      0.         0.       0.        0.   70 0   10000.    50 0  0 0  0    0.    0   0
+\end{verbatim}

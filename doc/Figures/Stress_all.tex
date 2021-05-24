@@ -1,0 +1,33 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup%
+  \makeatletter%
+  \newcommand{\GNUPLOTspecial}{%
+    \@sanitize\catcode`\%=14\relax\special}%
+  \setlength{\unitlength}{0.1bp}%
+\begin{picture}(2519,1620)(0,0)%
+\special{psfile=Stress_all.ps llx=0 lly=0 urx=504 ury=378 rwi=5040}
+\put(1569,413){\makebox(0,0)[l]{1800 spheres}}%
+\put(1569,513){\makebox(0,0)[l]{4008 ovals, dense}}%
+\put(1569,613){\makebox(0,0)[l]{4008 ovals, loose}}%
+\put(1569,713){\makebox(0,0)[l]{4008 circles}}%
+\put(1384,50){\makebox(0,0){Vertical strain, $\varepsilon_{22}$}}%
+\put(100,910){%
+\special{ps: gsave currentpoint currentpoint translate
+270 rotate neg exch neg exch translate}%
+\makebox(0,0)[b]{\shortstack{Deviator stress, $(\sigma_{22}-\sigma_{11})/p_{\mathrm{o}}$}}%
+\special{ps: currentpoint grestore moveto}%
+}%
+\put(2272,200){\makebox(0,0){0.005}}%
+\put(1877,200){\makebox(0,0){0.004}}%
+\put(1483,200){\makebox(0,0){0.003}}%
+\put(1089,200){\makebox(0,0){0.002}}%
+\put(694,200){\makebox(0,0){0.001}}%
+\put(300,200){\makebox(0,0){0}}%
+\put(250,1520){\makebox(0,0)[r]{4}}%
+\put(250,1215){\makebox(0,0)[r]{3}}%
+\put(250,910){\makebox(0,0)[r]{2}}%
+\put(250,605){\makebox(0,0)[r]{1}}%
+\put(250,300){\makebox(0,0)[r]{0}}%
+\end{picture}%
+\endgroup
+\endinput

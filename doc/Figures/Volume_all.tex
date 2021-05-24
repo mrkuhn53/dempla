@@ -1,0 +1,36 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup%
+  \makeatletter%
+  \newcommand{\GNUPLOTspecial}{%
+    \@sanitize\catcode`\%=14\relax\special}%
+  \setlength{\unitlength}{0.1bp}%
+\begin{picture}(2519,1511)(0,0)%
+\special{psfile=Volume_all.ps llx=0 lly=0 urx=504 ury=353 rwi=5040}
+\put(963,998){\makebox(0,0)[l]{1800 spheres}}%
+\put(963,1098){\makebox(0,0)[l]{4008 ovals, dense}}%
+\put(963,1198){\makebox(0,0)[l]{4008 ovals, loose}}%
+\put(963,1298){\makebox(0,0)[l]{4008 circles}}%
+\put(1509,50){\makebox(0,0){Vertical strain, $\varepsilon_{22}$}}%
+\put(100,855){%
+\special{ps: gsave currentpoint currentpoint translate
+270 rotate neg exch neg exch translate}%
+\makebox(0,0)[b]{\shortstack{Volume strain, $\frac{1}{2}\varepsilon_{kk}$ or $\frac{1}{3}\varepsilon_{kk}$}}%
+\special{ps: currentpoint grestore moveto}%
+}%
+\put(2295,200){\makebox(0,0){0.005}}%
+\put(1946,200){\makebox(0,0){0.004}}%
+\put(1597,200){\makebox(0,0){0.003}}%
+\put(1248,200){\makebox(0,0){0.002}}%
+\put(899,200){\makebox(0,0){0.001}}%
+\put(550,200){\makebox(0,0){0}}%
+\put(500,1411){\makebox(0,0)[r]{0.006}}%
+\put(500,1252){\makebox(0,0)[r]{0.005}}%
+\put(500,1094){\makebox(0,0)[r]{0.004}}%
+\put(500,935){\makebox(0,0)[r]{0.003}}%
+\put(500,776){\makebox(0,0)[r]{0.002}}%
+\put(500,617){\makebox(0,0)[r]{0.001}}%
+\put(500,459){\makebox(0,0)[r]{0}}%
+\put(500,300){\makebox(0,0)[r]{-0.001}}%
+\end{picture}%
+\endgroup
+\endinput

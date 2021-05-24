@@ -1,0 +1,52 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{}{Bardet}{1994}]{Bardet:1994a}
+Bardet, J.~P. (1994).
+\newblock ``Observations on the effects of particle rotations on the failure of
+  idealized granular materials.''\ {\em Mech. of Mater.}, 18(2), 159--182.
+
+\bibitem[\protect\citeauthoryear{}{Cundall and Strack}{1979}]{Cundall:1979a}
+Cundall, P.~A. and Strack, O. D.~L. (1979).
+\newblock ``A discrete numerical model for granular assemblies.''\ {\em
+  G{\'{e}}otechnique}, 29(1), 47--65.
+
+\bibitem[\protect\citeauthoryear{}{J{\"{a}}ger}{2005}]{Jager:2005a}
+J{\"{a}}ger, J. (2005).
+\newblock {\em New Solutions in Contact Mechanics}.
+\newblock WIT Press, Southampton, UK.
+
+\bibitem[\protect\citeauthoryear{}{Kuhn}{1999}]{Kuhn:1999a}
+Kuhn, M.~R. (1999).
+\newblock ``Structured deformation in granular materials.''\ {\em Mech. of
+  Mater.}, 31(6), 407--429.
+
+\bibitem[\protect\citeauthoryear{}{Preparata and
+  Shamos}{1985}]{Preparata:1985a}
+Preparata, F.~P. and Shamos, M.~I. (1985).
+\newblock {\em Computational Geometry: An Introduction}.
+\newblock Springer-Verlag, New York.
+
+\bibitem[\protect\citeauthoryear{}{Satake}{1982}]{Satake:1982a}
+Satake, M. (1982).
+\newblock ``Fabric tensor in granular materials.''\ {\em Proc. IUTAM Symp. on
+  Deformation and Failure of Granular Materials}, P.~A. Vermeer and H.~J.
+  Luger, eds., A.A. Balkema, Rotterdam,  63--68.
+
+\bibitem[\protect\citeauthoryear{}{Satake}{1992}]{Satake:1992a}
+Satake, M. (1992).
+\newblock ``A discrete-mechanical approach to granular materials.''\ {\em Int.
+  J. Eng. Sci.}, 30(10), 1525--1533.
+
+\bibitem[\protect\citeauthoryear{}{Satake}{1993}]{Satake:1993b}
+Satake, M. (1993).
+\newblock ``New formulation of graph-theoretical approach in the mechanics of
+  granular materials.''\ {\em Mech. Mater.}, 16, 65--72.
+
+\bibitem[\protect\citeauthoryear{}{Thornton and Randall}{1988}]{Thornton:1988a}
+Thornton, C. and Randall, C.~W. (1988).
+\newblock ``Applications of theoretical contact mechanics to solid particle
+  system simulation.''\ {\em Micromechanics of Granular Materials}, M. Satake
+  and J. Jenkins, eds., Elsevier Science Pub. B.V., Amsterdam, The Netherlands,
+   133--142.
+
+\end{thebibliography}

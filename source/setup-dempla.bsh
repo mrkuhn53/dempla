@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+ulimit -s unlimited
+export OMP_STACKSIZE=80m
+export OMP_NUM_THREADS=10

@@ -1,0 +1,130 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Contents}{4}{section.2}%
+\contentsline {section}{\numberline {3}Capabilities and limitations}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Capabilities and limitations of the code}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Things to do}{10}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Availability and installation}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Compiling \textsc {Dempla}\ on Linux systems}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}macOS systems}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Windows systems}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Helpful/essential utilities}{14}{section.5}%
+\contentsline {section}{\numberline {6}Running \textsc {Dempla}\ and \textsc {Oval}}{14}{section.6}%
+\contentsline {section}{\numberline {7}Boundary Types}{19}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Periodic boundaries}{19}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Tight-fitting particle boundaries}{19}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Rigid-flat boundaries}{21}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}External-particle boundaries}{21}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}\texttt {ipvers}}{22}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}\texttt {ixfix(1)}}{22}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}\texttt {idirec}}{22}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}\texttt {nplt}}{22}{subsubsection.7.4.4}%
+\contentsline {subsubsection}{\numberline {7.4.5}\texttt {rad,xp(1)}}{22}{subsubsection.7.4.5}%
+\contentsline {section}{\numberline {8}\textsf {RunFile}s for \textsc {Oval}}{22}{section.8}%
+\contentsline {subsection}{\numberline {8.1}\textsf {RunFile}: General information section}{24}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}\texttt {title}}{24}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}\texttt {algori}}{24}{subsubsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.3}\texttt {ivers}}{25}{subsubsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.4}\texttt {ncownt}}{26}{subsubsection.8.1.4}%
+\contentsline {subsubsection}{\numberline {8.1.5}\texttt {iout(2)}}{26}{subsubsection.8.1.5}%
+\contentsline {subsubsection}{\numberline {8.1.6}\texttt {iout(3)}}{26}{subsubsection.8.1.6}%
+\contentsline {subsubsection}{\numberline {8.1.7}\texttt {istart}}{26}{subsubsection.8.1.7}%
+\contentsline {subsubsection}{\numberline {8.1.8}\texttt {iend}}{27}{subsubsection.8.1.8}%
+\contentsline {subsubsection}{\numberline {8.1.9}\texttt {idef}}{27}{subsubsection.8.1.9}%
+\contentsline {subsubsection}{\numberline {8.1.10}\texttt {iupdtm}}{28}{subsubsection.8.1.10}%
+\contentsline {subsubsection}{\numberline {8.1.11}\texttt {icirct}}{28}{subsubsection.8.1.11}%
+\contentsline {subsubsection}{\numberline {8.1.12}\texttt {imodel}}{28}{subsubsection.8.1.12}%
+\contentsline {subsubsection}{\numberline {8.1.13}\texttt {nplatn}}{28}{subsubsection.8.1.13}%
+\contentsline {subsubsection}{\numberline {8.1.14}\texttt {nloop1}}{29}{subsubsection.8.1.14}%
+\contentsline {subsubsection}{\numberline {8.1.15}\texttt {kn} or \texttt {G}}{29}{subsubsection.8.1.15}%
+\contentsline {subsubsection}{\numberline {8.1.16}\texttt {kratio}}{29}{subsubsection.8.1.16}%
+\contentsline {subsubsection}{\numberline {8.1.17}\texttt {frict}}{29}{subsubsection.8.1.17}%
+\contentsline {subsubsection}{\numberline {8.1.18}\texttt {frictw}}{29}{subsubsection.8.1.18}%
+\contentsline {subsubsection}{\numberline {8.1.19}\texttt {rho}}{30}{subsubsection.8.1.19}%
+\contentsline {subsubsection}{\numberline {8.1.20}\texttt {search}}{30}{subsubsection.8.1.20}%
+\contentsline {subsubsection}{\numberline {8.1.21}\texttt {pcrit(1)}}{30}{subsubsection.8.1.21}%
+\contentsline {subsubsection}{\numberline {8.1.22}\texttt {pcrit(2)}}{30}{subsubsection.8.1.22}%
+\contentsline {subsubsection}{\numberline {8.1.23}\texttt {pcrit(3)}}{30}{subsubsection.8.1.23}%
+\contentsline {subsubsection}{\numberline {8.1.24}\texttt {xseed}}{31}{subsubsection.8.1.24}%
+\contentsline {subsubsection}{\numberline {8.1.25}\texttt {rmsvel}}{31}{subsubsection.8.1.25}%
+\contentsline {subsubsection}{\numberline {8.1.26}\texttt {pdif}}{31}{subsubsection.8.1.26}%
+\contentsline {subsubsection}{\numberline {8.1.27}\texttt {tmax}}{31}{subsubsection.8.1.27}%
+\contentsline {subsubsection}{\numberline {8.1.28}\texttt {rfree3}}{32}{subsubsection.8.1.28}%
+\contentsline {subsubsection}{\numberline {8.1.29}\texttt {dt}}{32}{subsubsection.8.1.29}%
+\contentsline {subsection}{\numberline {8.2}\textsf {RunFile}: Deformation-stress path section}{32}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}\texttt {icontr}}{33}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}\texttt {defrat}}{35}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}\texttt {igoal}}{35}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}\texttt {krotat}}{36}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}\texttt {finalv}}{37}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}\texttt {ipts}}{37}{subsubsection.8.2.6}%
+\contentsline {subsubsection}{\numberline {8.2.7}\texttt {idump}}{37}{subsubsection.8.2.7}%
+\contentsline {subsubsection}{\numberline {8.2.8}\texttt {iflexc}}{37}{subsubsection.8.2.8}%
+\contentsline {subsubsection}{\numberline {8.2.9}\texttt {imicro}}{39}{subsubsection.8.2.9}%
+\contentsline {subsubsection}{\numberline {8.2.10}\texttt {ibodyf}}{39}{subsubsection.8.2.10}%
+\contentsline {subsubsection}{\numberline {8.2.11}\texttt {defdot}}{39}{subsubsection.8.2.11}%
+\contentsline {subsubsection}{\numberline {8.2.12}\texttt {ipts2}}{39}{subsubsection.8.2.12}%
+\contentsline {subsubsection}{\numberline {8.2.13}\texttt {iplot}}{39}{subsubsection.8.2.13}%
+\contentsline {section}{\numberline {9}\textsf {StartFile}: The initial particle arrangement}{39}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Assembly data in D-\textsf {StartFile}s}{40}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}\texttt {kshape}}{40}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}\texttt {np, xcell(1,1)}}{41}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}\texttt {xcell(1,2)}}{43}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}\texttt {beta}}{43}{subsubsection.9.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.5}\texttt {nobs} or \texttt {nbumps}}{43}{subsubsection.9.1.5}%
+\contentsline {subsubsection}{\numberline {9.1.6}\texttt {satrad}, \texttt {cenrad}, \texttt {cirrad}}{45}{subsubsection.9.1.6}%
+\contentsline {subsection}{\numberline {9.2}Particle data in \texttt {D}-\textsf {StartFiles}}{45}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Circle particle data}{45}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Oval particle data}{46}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Ellipse particle data}{47}{subsubsection.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.4}Sphere particle data}{47}{subsubsection.9.2.4}%
+\contentsline {subsubsection}{\numberline {9.2.5}Ovoid particle data}{48}{subsubsection.9.2.5}%
+\contentsline {subsubsection}{\numberline {9.2.6}Nobby (2D) particle data}{49}{subsubsection.9.2.6}%
+\contentsline {subsubsection}{\numberline {9.2.7}Bumpy (3D) particle data}{49}{subsubsection.9.2.7}%
+\contentsline {section}{\numberline {10}Text output files from \textsc {Oval}}{50}{section.10}%
+\contentsline {subsection}{\numberline {10.1}A-files: macro-data for spreadsheets}{50}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}B-files: macro-data text files}{52}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}B-files with 2D simulations}{52}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}\texttt {timer}}{52}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}\texttt {defout(i,j)}}{53}{subsubsection.10.3.2}%
+\contentsline {subsubsection}{\numberline {10.3.3}\texttt {knrgy}}{53}{subsubsection.10.3.3}%
+\contentsline {subsubsection}{\numberline {10.3.4}\texttt {ntacts}}{53}{subsubsection.10.3.4}%
+\contentsline {subsubsection}{\numberline {10.3.5}\texttt {chi1}}{53}{subsubsection.10.3.5}%
+\contentsline {subsubsection}{\numberline {10.3.6}\texttt {stress(i,j)}}{54}{subsubsection.10.3.6}%
+\contentsline {subsubsection}{\numberline {10.3.7}\texttt {pnrgy}}{54}{subsubsection.10.3.7}%
+\contentsline {subsubsection}{\numberline {10.3.8}\texttt {psi}}{54}{subsubsection.10.3.8}%
+\contentsline {subsubsection}{\numberline {10.3.9}\texttt {chi2}}{54}{subsubsection.10.3.9}%
+\contentsline {subsubsection}{\numberline {10.3.10}\texttt {chi3}}{54}{subsubsection.10.3.10}%
+\contentsline {subsubsection}{\numberline {10.3.11}\texttt {chi4}}{55}{subsubsection.10.3.11}%
+\contentsline {subsubsection}{\numberline {10.3.12}\texttt {viscbt}}{55}{subsubsection.10.3.12}%
+\contentsline {subsubsection}{\numberline {10.3.13}\texttt {slidet}}{55}{subsubsection.10.3.13}%
+\contentsline {subsubsection}{\numberline {10.3.14}\texttt {work1t}}{55}{subsubsection.10.3.14}%
+\contentsline {subsubsection}{\numberline {10.3.15}\texttt {xloops}}{56}{subsubsection.10.3.15}%
+\contentsline {subsubsection}{\numberline {10.3.16}\texttt {viscct}}{56}{subsubsection.10.3.16}%
+\contentsline {subsection}{\numberline {10.4}B-files with 3D simulations}{56}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}F-files: micro-data text files}{57}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}F-files for 2D assemblies}{58}{subsection.10.6}%
+\contentsline {subsubsection}{\numberline {10.6.1}Fa-files for 2D assemblies}{58}{subsubsection.10.6.1}%
+\contentsline {subsubsection}{\numberline {10.6.2}Fb-files for 2D assemblies}{59}{subsubsection.10.6.2}%
+\contentsline {subsubsection}{\numberline {10.6.3}Fc-files for 2D assemblies of convex particles}{59}{subsubsection.10.6.3}%
+\contentsline {subsubsection}{\numberline {10.6.4}Fc-files for 2D assemblies of non-convex particles}{62}{subsubsection.10.6.4}%
+\contentsline {subsubsection}{\numberline {10.6.5}Fd-files for 2D assemblies}{62}{subsubsection.10.6.5}%
+\contentsline {subsubsection}{\numberline {10.6.6}Ff-files for 2D assemblies}{62}{subsubsection.10.6.6}%
+\contentsline {subsection}{\numberline {10.7}F-files for 3D assemblies}{63}{subsection.10.7}%
+\contentsline {subsubsection}{\numberline {10.7.1}Fa-files for 3D assemblies}{64}{subsubsection.10.7.1}%
+\contentsline {subsubsection}{\numberline {10.7.2}Fb-files for 3D assemblies}{64}{subsubsection.10.7.2}%
+\contentsline {subsubsection}{\numberline {10.7.3}Fc-files for 3D assemblies}{65}{subsubsection.10.7.3}%
+\contentsline {subsubsection}{\numberline {10.7.4}Ff-files for 3D assemblies}{66}{subsubsection.10.7.4}%
+\contentsline {section}{\numberline {11}Screen output from \textsc {Oval}}{67}{section.11}%
+\contentsline {section}{\numberline {12}Sample assemblies for \textsc {Oval}}{69}{section.12}%
+\contentsline {section}{\numberline {13}Example simulations using \textsc {Oval}}{71}{section.13}%
+\contentsline {section}{\numberline {14}Some advice on using \textsc {Oval}}{73}{section.14}%
+\contentsline {section}{\numberline {15}Change Log}{76}{section.15}%
+\contentsline {subsection}{\numberline {15.1}\textsc {Oval}--0.4.0 to \textsc {Oval}--0.6.0}{76}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}\textsc {Oval}--0.6.0 to \textsc {Oval}--0.6.1}{77}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}\textsc {Oval}--0.6.1 to \textsc {Oval}--0.6.2}{77}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}\textsc {Oval}--0.6.2 to \textsc {Oval}--0.6.3}{77}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}\textsc {Oval}--0.6.3 to \textsc {Oval}--0.6.4}{78}{subsection.15.5}%
+\contentsline {subsection}{\numberline {15.6}\textsc {Oval}--0.6.4 to \textsc {Oval}--0.6.5}{78}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}\textsc {Oval}--0.6.5 to \textsc {Oval}--0.6.8}{78}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}\textsc {Oval}--0.6.8 to \textsc {Oval}--0.6.10}{79}{subsection.15.8}%
+\contentsline {section}{\numberline {16}References}{79}{section.16}%
