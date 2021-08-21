@@ -1,0 +1,48 @@
+#!/bin/bash
+#
+# This bash shell script runs a Dempla simulation of a specimen that
+# has been isotropically consolidated and is monotonically loading
+# in undrained triaxial compression.  The simulation is reported in
+# this paper:
+#    Kuhn, Matthew R., and Ali Daouadji. "Simulation of undrained 
+#    quasi-saturated soil with pore pressure measurements using 
+#    a discrete element (DEM) algorithm." Soils and Foundations 
+#    60.5 (2020): 1097-1111.
+#
+# The results are shown in Fig. 4a of the paper, as the case with
+# a back pressure of 270kPa and a B-value of 0.42
+#
+#
+# To run Dempla, you first do the following.  Instructions for the various
+# steps are given in the documentation, located in the "doc/" folder.
+#  1) create the executable file from the fortran source code.  The
+#     steps for doing this with the gfortran compiler are described in
+#     the documentation.  Because this is a Mode 1 simulation, you do
+#     not need to compile with the openMP flags. You will need to know 
+#     the name of the executable file and its path.
+#
+#     Before compiling, you should check the param-dempla-X.X.XX.f file
+#     to check the size pf parmeter "mlistJ".  Its value should be 800.
+#     If necessary, change and recompile.
+#
+#  2) go to this folder:  dempla/examples/CIUC_pq_unsat_loose
+#
+#  3) the RunFile and the StartFile in this folder have these names
+#        CIUC_pq_unsat_loose_Bvalue_0.42
+#        DStartFile
+#     both names are symbolic links to the folders RunFiles and StartFiles.
+#     You can find the target files with these commands:
+#        ls -l CIUC_pq_unsat_loose_Bvalue_0.42
+#        ls -l DStartFile
+#
+#  4) Now run the shell commands below...
+#
+# Change the following for your path!!!
+PATH_TO_EXECUTABLE="../../source/a.out"
+#
+time $PATH_TO_EXECUTABLE << END
+1
+CIUC_pq_unsat_loose_Bvalue_0.42
+DStartFile
+END
+date

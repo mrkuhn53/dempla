@@ -1,0 +1,72 @@
+#!/bin/bash
+#
+# This bash shell script runs a Dempla simulation of wave propagation.  This
+# simulation appears in the paper as DKS02_bl
+#
+# To run Dempla, you first do the following.  Instructions for the various
+# steps are given in the documentation, located in the "doc/" folder.
+#  1) create the executable file from the fortran source code.  The
+#     steps for doing this with the gfortran compiler are described in
+#     the documentation.  You will need to know the name of the executable
+#     file and its path.
+#
+#  2) from the main directory (folder) from which you are running the
+#     simulation, create a link to the directory "MotionInput" that contains
+#     the files of motion histories.  For example, if you are using the
+#     same directory structure as in the github archive, you could run
+#     the simulation from within the "examples/" directory.  Note that
+#     the MotionInput folder is not located inside of example/, but it
+#     probably contains a symbolic link (symlink) to the MotionInput/ 
+#     directory.  If not, create the link:
+#       cd <folder from which you are running the simulation>
+#       ln -s <path to the MotionInput directory> MotionInput
+#     Note: if the folder from which you are running the simulation contains
+#     the actual MotionInput folder, then you won't need to create the link.
+#
+#  3) from the same folder (the main directory from which you are running 
+#     the simulation), create a link to the directory "RunFiles" that
+#     contains the RunFiles (these files give the parameters for running
+#     the DEM simulations at each RVE).
+#       cd <folder from which you are running the simulation>
+#       ln -s <path to the RunFiles directory> RunFiles
+#     Note: if the folder from which you are running the simulation contains
+#     the actual RunFiles folder, then you won't need to create the link.
+#
+#  4) from the same folder (the main directory from which you are running 
+#     the simulation), create a link to the directory "StartFiles" that
+#     contains the StartFiles (these files give the parameters for running
+#     the DEM simulations at each RVE).
+#       cd <folder from which you are running the simulation>
+#       ln -s <path to the StartFiles directory> StartFiles
+#     Note: if the folder from which you are running the simulation contains
+#     the actual StartFiles folder, then you won't need to create the link.
+#
+#  5) create the directory with the BaseName of the simulation, along with
+#     three additional directories
+#       mkdir <the BaseName of your simulation>
+#       mkdir <the BaseName of your simulation>/02_LayerSetup
+#       mkdir <the BaseName of your simulation>/03_RVESetup
+#       mkdir <the BaseName of your simulation>/04_RunOutput
+#
+#  6) create the G-file that gives the conditions of the soil column.
+#     Place this G-file inside of the BaseName folder.  For this example,
+#     the G-file is in the github repository, inside of the 
+#     examples/<BaseName> directory
+#
+#  7) create the L-files that give information about each soil layer.
+#     Place these L-files inside of the BaseName folder.  For this example,
+#     the G-file is in the github repository, inside of the 
+#     examples/<BaseName> directory
+#
+# Now run the shell commands
+#
+# Change to your path!!!
+PATH_TO_EXECUTABLE="../source/a.out"
+#
+time $PATH_TO_EXECUTABLE << END
+2
+DKS02_bl_B_mu005_f040_A17
+a
+Motion_DKS02_bl_A17_Model
+END
+date

@@ -1,0 +1,11 @@
+This file gives information for a single stratigraphic soil layer
+    101          : lvers           | version of this file type
+      1          : iRunLayer_DEM   | run DEM simulation to create Layer C-file?
+      1          : iRunRVE_DEM     | run DEM simulation to create RVEs C-files?
+      1          : iRunRVEModuli   | run DEM simulation to find RVE moduli
+      2          : Isotropic       | consolidated isotropic(0,1), anisotropic(2)
+     20.d0       : LayerThickness  | thickness of this single layer, m
+     0.563d0     : VoidRatio       | void ratio
+     2.67d0      : G_s             | specific gravity of soil solids
+Prep_B_frict_040_Isotropic_b_Gen1.5_Aalph_100_dry
+DEquil_Template_Frict_0.05_DBumpies-10648-6-06-08-064-c_Frict_0.05_LRforce_-0.20e-4-Int10-1-Nevada-D50
