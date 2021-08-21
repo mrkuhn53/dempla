@@ -1,0 +1,222 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cundall and Strack(1979)]{Cundall:1979a}
+P.~A. Cundall and O.~D.~L. Strack.
+\newblock A discrete numerical model for granular assemblies.
+\newblock \emph{G{\'{e}}otechnique}, 29\penalty0 (1):\penalty0 47--65, 1979.
+
+\bibitem[Kuhn()]{Kuhn:2021a}
+M.~R. Kuhn.
+\newblock Multi-scale simulation of wave propagation and liquefaction in a
+  one-dimensional soil column: hybrid {DEM} and finite-difference procedure.
+\newblock page in review.
+
+\bibitem[J{\"{a}}ger(2005)]{Jager:2005a}
+J.~J{\"{a}}ger.
+\newblock \emph{New Solutions in Contact Mechanics}.
+\newblock WIT Press, Southampton, UK, 2005.
+
+\bibitem[Kuhn(2011)]{Kuhn:2011a}
+M.~R. Kuhn.
+\newblock Implementation of the {J}{\"{a}}ger contact model for discrete
+  element simulations.
+\newblock \emph{Int. J. Numer. Methods Eng.}, 88\penalty0 (1):\penalty0 66--82,
+  2011.
+\newblock \doi{https://doi.org/10.1002/nme.3166}.
+
+\bibitem[Kuhn et~al.(2014)Kuhn, Renken, Mixsell, and Kramer]{Kuhn:2014c}
+M.~R. Kuhn, H.~Renken, A.~Mixsell, and S.~Kramer.
+\newblock Investigation of cyclic liquefaction with discrete element
+  simulations.
+\newblock \emph{J. Geotech. and Geoenv. Eng.}, 140\penalty0 (12):\penalty0
+  04014075, 2014.
+\newblock \doi{https://doi.org/10.1061/(ASCE)GT.1943-5606.0001181}.
+
+\bibitem[Potyondy and Cundall(2004)]{Potyondy:2004a}
+D.~O. Potyondy and P.~A. Cundall.
+\newblock A bonded-particle model for rock.
+\newblock \emph{Int. J. Rock. Mech. and Mining Sci.}, 41\penalty0 (8):\penalty0
+  1329--1364, 2004.
+
+\bibitem[J{\"{a}}ger(1999)]{Jager:1999a}
+J.~J{\"{a}}ger.
+\newblock Uniaxial deformation of a random packing of particles.
+\newblock \emph{Arch. Appl. Mech.}, 69\penalty0 (3):\penalty0 181--203, 1999.
+
+\bibitem[Satake(1992)]{Satake:1992a}
+M.~Satake.
+\newblock A discrete-mechanical approach to granular materials.
+\newblock \emph{Int. J. Eng. Sci.}, 30\penalty0 (10):\penalty0 1525--1533,
+  1992.
+
+\bibitem[Satake(1993)]{Satake:1993b}
+M.~Satake.
+\newblock New formulation of graph-theoretical approach in the mechanics of
+  granular materials.
+\newblock \emph{Mech. Mater.}, 16:\penalty0 65--72, 1993.
+
+\bibitem[Kuhn(1999)]{Kuhn:1999a}
+M.~R. Kuhn.
+\newblock Structured deformation in granular materials.
+\newblock \emph{Mech. of Mater.}, 31\penalty0 (6):\penalty0 407--429, 1999.
+
+\bibitem[Satake(1982)]{Satake:1982a}
+M.~Satake.
+\newblock Fabric tensor in granular materials.
+\newblock In P.~A. Vermeer and H.~J. Luger, editors, \emph{Proc. IUTAM Symp. on
+  Deformation and Failure of Granular Materials}, pages 63--68. A.A. Balkema,
+  Rotterdam, 1982.
+
+\bibitem[Preparata and Shamos(1985)]{Preparata:1985a}
+F[ranco]~P. Preparata and M[ichael]~I. Shamos.
+\newblock \emph{Computational Geometry: An Introduction}.
+\newblock Springer-Verlag, New York, 1985.
+
+\bibitem[Thornton and Randall(1988)]{Thornton:1988a}
+C.~Thornton and C.~W. Randall.
+\newblock Applications of theoretical contact mechanics to solid particle
+  system simulation.
+\newblock In M.~Satake and J.T. Jenkins, editors, \emph{Micromechanics of
+  Granular Materials}, pages 133--142. Elsevier Science Pub. B.V., Amsterdam,
+  The Netherlands, 1988.
+
+\bibitem[Kuhn and Daouadji(2020)]{Kuhn:2020a}
+M.~R. Kuhn and A.~Daouadji.
+\newblock Simulation of undrained quasi-saturated soil with pore pressure
+  measurements using a discrete element ({DEM}) algorithm.
+\newblock \emph{Soils and Found.}, 60\penalty0 (5):\penalty0 1097--1111, 2020.
+\newblock ISSN 0038-0806.
+\newblock \doi{https://doi.org/10.1016/j.sandf.2020.05.013}.
+
+\bibitem[Huang et~al.(2017)Huang, Hanley, O'Sullivan, and Kwok]{Huang:2017a}
+X.~Huang, K.~J. Hanley, C.~O'Sullivan, and C.-Y. Kwok.
+\newblock Implementation of rotational resistance models: a critical appraisal.
+\newblock \emph{Particuology}, 34:\penalty0 14--23, 2017.
+
+\bibitem[Nguyen et~al.(2018)Nguyen, Rahman, and Fourie]{Nguyen:2018a}
+H.~B.~K. Nguyen, M.~M. Rahman, and A.~B. Fourie.
+\newblock Characteristic behavior of drained and undrained triaxial compression
+  tests: {DEM} study.
+\newblock \emph{J. Geotech. and Geoenv. Eng.}, 144\penalty0 (9):\penalty0
+  04018060, 2018.
+
+\bibitem[Pabst and Gregorov{\'a}(2013)]{Pabst:2013a}
+W.~Pabst and E.~Gregorov{\'a}.
+\newblock Elastic properties of silica polymorphs---a review.
+\newblock \emph{Ceramics-Silikaty}, 57\penalty0 (3):\penalty0 167--184, 2013.
+
+\bibitem[Hardin and Richart(1963)]{Hardin:1963a}
+B.~O. Hardin and F.~E. Richart.
+\newblock Elastic wave velocities in granular soils.
+\newblock \emph{J. of Soil Mech. and Found. Div., ASCE}, 89\penalty0
+  (1):\penalty0 33--66, 1963.
+
+\bibitem[Iwasaki et~al.(1978)Iwasaki, Tatsuoka, and Takagi]{Iwasaki:1978a}
+T.~Iwasaki, R.~Tatsuoka, and Y.~Takagi.
+\newblock Shear moduli of sands under cyclic torsional shear loading.
+\newblock \emph{Soils and Found.}, 18\penalty0 (1):\penalty0 39--56, 1978.
+
+\bibitem[Hanley et~al.(2013)Hanley, Huang, O'Sullivan, and Kwok]{Hanley:2013a}
+K.~J. Hanley, X.~Huang, C.~O'Sullivan, and F.~Kwok.
+\newblock Challenges of simulating undrained tests using the constant volume
+  method in {DEM}.
+\newblock In \emph{AIP Conference Proceedings}, volume 1542, pages 277--280.
+  AIP, 2013.
+
+\bibitem[Suzuki and Kuhn(2014)]{Suzuki:2014a}
+K.~Suzuki and M.~R. Kuhn.
+\newblock Uniqueness of discrete element simulations in monotonic biaxial shear
+  tests.
+\newblock \emph{Int. J. Geomech.}, 14\penalty0 (5):\penalty0 06014010, 2014.
+\newblock \doi{https://doi.org/10.1061/(ASCE)GM.1943-5622.0000365}.
+
+\bibitem[Stevens et~al.(1999)Stevens, Kim, Wilson, and Kutter]{Stevens:1999a}
+D.~K. Stevens, B.~I. Kim, D.~W. Wilson, and B.~L. Kutter.
+\newblock Comprehensive investigation of nonlinear site response--centrifuge
+  data report for {DKS02}.
+\newblock Technical Report Data Report UCD/CGMDR-99/02, Center for Geotechnical
+  Modeling, Univ. of Cal., Davis, 1999.
+
+\bibitem[Elgamal et~al.(2005)Elgamal, Yang, Lai, Kutter, and
+  Wilson]{Elgamal:2005a}
+A.~Elgamal, Z.~Yang, T.~Lai, B.~L. Kutter, and D.~W. Wilson.
+\newblock Dynamic response of saturated dense sand in laminated centrifuge
+  container.
+\newblock \emph{J. Geotech. and Geoenv. Eng.}, 131\penalty0 (5):\penalty0
+  598--609, 2005.
+\newblock \doi{https://doi.org/10.1061/(ASCE)1090-0241(2005)131:5(598)}.
+
+\bibitem[{Center for Engineering Strong Motion Data}(2021)]{VDC:2021a}
+{Center for Engineering Strong Motion Data}.
+\newblock Strong-{M}otion {V}irtual {D}ata {C}enter ({VDC}), Jan. 2021.
+\newblock URL \url{https://www.strongmotioncenter.org/vdc/scripts/default.plx}.
+
+\bibitem[{C}enter for~{G}eotechnical {M}odeling(2021)]{CGM:2021a}
+{C}enter for~{G}eotechnical {M}odeling.
+\newblock {University of California, Davis}, Jan. 2021.
+\newblock URL \url{https://cgm.engr.ucdavis.edu/about/}.
+
+\bibitem[Butterfield(2000)]{Butterfield:2000a}
+R.~Butterfield.
+\newblock Scale-modelling of fluid flow in geotechnical centrifuges.
+\newblock \emph{Soils and Found.}, 40\penalty0 (6):\penalty0 39--45, 2000.
+\newblock \doi{https://doi.org/10.3208/sandf.40.6\_39}.
+
+\bibitem[Arulmoli et~al.(1992)Arulmoli, Muraleetharan, Hossain, and
+  Fruth]{Arulmoli1992a}
+K.~Arulmoli, K.~K. Muraleetharan, M.~M. Hossain, and L.~S. Fruth.
+\newblock {VELACS} verification of liquefaction analyses by centrifuge studies
+  laboratory testing program soil data report.
+\newblock Technical Report Project No. 90-0562, The Earth Technology
+  Corporation, Irvine, CA, 1992.
+\newblock Data available through http://yees.usc.edu/velacs.
+
+\bibitem[Arulmoli(1994)]{Arulmoli_1994a}
+K.~Arulmoli.
+\newblock {VELACS}: selection, distribution and laboratory testing of soils.
+\newblock In K.~Arulanandan and R.~F. Scott, editors, \emph{Verifications of
+  Numerical Procedures for the Analysis fo Soil Liquefaction Problems},
+  volume~2, pages 1281--1292. Balkema, Rotterdam, 1994.
+
+\bibitem[Kutter et~al.(1994)Kutter, Chen, and Shen]{Kutter:1994a}
+B.~L. Kutter, Y.-R. Chen, and C.~K. Shen.
+\newblock Triaxial and torsional shear test results for sand.
+\newblock Technical Report CR 94.003, Office of Naval Research, Arlington, VA,
+  1994.
+
+\bibitem[Kwan(2015)]{Kwan:2015a}
+W.~S. Kwan.
+\newblock \emph{Laboratory investigation into evaluation of sand liquefaction
+  under transient loadings}.
+\newblock Dissertation, University of Texas at Austin, 2015.
+
+\bibitem[Lim and Andrade(2014)]{Lim:2014a}
+K.-W. Lim and J.~E. Andrade.
+\newblock Granular element method for three-dimensional discrete element
+  calculations.
+\newblock \emph{Int. J. Numer. and Anal. Methods in Geomech.}, 38\penalty0
+  (2):\penalty0 167--188, 2014.
+\newblock \doi{https://doi.org/10.1016/j.cma.2012.06.012}.
+
+\bibitem[Cho et~al.(2006)Cho, Dodds, and Santamarina]{Cho:2006a}
+G.-C. Cho, J.~Dodds, and J.~C. Santamarina.
+\newblock Particle shape effects on packing density, stiffness, and strength:
+  natural and crushed sands.
+\newblock \emph{J. Geotech. and Geoenv. Eng.}, 132\penalty0 (5):\penalty0
+  591--602, 2006.
+\newblock \doi{https://doi.org/10.1061/(ASCE)1090-0241(2007)133:11(1474)}.
+
+\bibitem[Kuhn and Daouadji(2018)]{Kuhn:2018a}
+M.~R. Kuhn and A.~Daouadji.
+\newblock Quasi-static incremental behavior of granular materials:
+  Elastic–plastic coupling and micro-scale dissipation.
+\newblock \emph{J. Mech. Phys. Solids}, 114:\penalty0 219--237, 2018.
+\newblock ISSN 0022-5096.
+\newblock \doi{https://doi.org/10.1016/j.jmps.2018.02.019}.
+
+\end{thebibliography}

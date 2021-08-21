@@ -1,8 +1,7 @@
-\begin{verbatim}
 Heading with useful information about this particular simulation
        1         : algori   | the algorithm for advancing the particle positions (1 or 2)
-       0         : ivers    | add extra input lines (0)
-       0         : ncownt   | fequency for updating non-periodic boundaries (0)
+       6         : ivers    | add extra input lines (0)
+     400         : ncownt   | fequency for updating non-periodic boundaries (0)
        0         : iout(2)  | output files with avg. def. and gradients in layers (0)
        0         : iout(3)  | output files with avg. stresses within layers (0)
        1         : istart   | type of file defining the initial configuration (1 or 3)
@@ -67,4 +66,3 @@ Heading with useful information about this particular simulation
 icontr |  rate_11 | rate_22 | rate_33 | rate_12 | rate_13 | rate_23    vrate  igoal   finalv  ipts |  | | |  defdot  |   |
 ------|-|---------|---------|---------|---------|---------|---------|---------|--|-|---------|----|-|--|-|--|------|----|--|
 111000 1  0.000e+0  0.000e+0  0.000e+0  0.000e+0  0.000e+0  0.000e+0  0.000e+0 70 0     4000.  100 0  0 0  0     0.    0  0
-\end{verbatim}

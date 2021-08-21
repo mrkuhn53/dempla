@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dempla_0_2_3.aux
+The style file: unsrtnat.bst
+Database file #1: Kuhn.bib
+Warning--empty journal in Kuhn:2021a
+Warning--empty year in Kuhn:2021a
+Warning--empty year in Kuhn:2021a
+Warning--can't use both volume and number fields in Hanley:2013a
+You've used 33 entries,
+            2481 wiz_defined-function locations,
+            1074 strings with 13307 characters,
+and the built_in function-call counts, 12895 in all, are:
+= -- 1189
+> -- 517
+< -- 33
++ -- 212
+- -- 146
+* -- 954
+:= -- 2003
+add.period$ -- 115
+call.type$ -- 33
+change.case$ -- 64
+chr.to.int$ -- 33
+cite$ -- 37
+duplicate$ -- 672
+empty$ -- 1203
+format.name$ -- 199
+if$ -- 2781
+int.to.chr$ -- 1
+int.to.str$ -- 34
+missing$ -- 29
+newline$ -- 185
+num.names$ -- 105
+pop$ -- 253
+preamble$ -- 1
+purify$ -- 33
+quote$ -- 0
+skip$ -- 427
+stack$ -- 0
+substring$ -- 685
+swap$ -- 125
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 225
+warning$ -- 4
+while$ -- 119
+width$ -- 0
+write$ -- 468
+(There were 4 warnings)
