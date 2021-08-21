@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Now, expand the entire assembly by a factor of 3.2, a number slightly
+# greater than the max. radius divided by the min. radius
+~/Simulations/oval/assembly_2d-2.run > /dev/null << EOF2
+Dtemp_1
+1
+Dtemp_2
+1
+1
+1
+y
+3.2d0
+3.2d0
+EOF2

@@ -1,0 +1,41 @@
+#!/bin/bash
+#
+# Indices for the first and last assemblies
+first=1
+last=100
+#
+# A variable for incrementing the assembly number
+var1=$first
+#
+# The loop for creating assemblies, one after another
+while [ $var1 -le $last ]
+do
+# heading for this assembly, printed to the screen
+  echo $var1 $var1 $var1 $var1 $var1 $var1 $var1 $var1 $var1 $var1 $var1
+#
+# create the input for shuffle.f
+  echo $var1 > shuffle_tail
+  cat shuffle_head shuffle_tail > shuffle_input
+#
+# shuffle the particle diameters
+  nice ~/Simulations/oval/shuffle.run < shuffle_input > output_shuffle
+#
+# Now, expand the entire assembly by a factor of 3.2, a number slightly
+# greater than the max. radius divided by the min. radius
+  nice shuffle1
+#
+# compact the assembly
+  nice shuffle2
+#
+# Move particles back to the home cell
+nice ~/Simulations/oval/putback.run > /dev/null << EOF
+DSetup_13
+DSetup_13p
+EOF
+#
+# move the final D-file to a unique name
+  mv DSetup_13p Dcircls_1002_2-$var1
+#
+# increment for the next assembly
+  var1=`expr $var1 + 1`
+done

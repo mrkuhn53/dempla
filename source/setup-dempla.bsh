@@ -1,5 +1,16 @@
 #!/bin/bash
 #
+# This bash script will set shell parameters for parallelized running
+# of Mode 2 wave propagation simulations.  The script is NOT needed for
+# Mode 1 simulations of single assemblies.
+#
+# The value of OMP_NUM_THREADS is the number of threads that will be
+# given to dempla when it is run
+#
+# You must "source" this bash script for it to take effect:
+#   source setup-dempla.bsh
+#
+#
 ulimit -s unlimited
 export OMP_STACKSIZE=80m
 export OMP_NUM_THREADS=10

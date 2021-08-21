@@ -1,0 +1,55 @@
+This directory contains an entire series of assemblies of 1002 circular 
+particles, each having the same void ratio and the same particle sizes, 
+but different particle arrangements.
+%
+The void ratios are all 0.174257.
+%
+I have included the bash script files, the Runfiles, and several Fortran
+programs that were used to create these files.
+%
+Script files:
+  shuffle0
+  shuffle1
+  shuffle2
+%
+RunFiles:
+  Setup_1
+  Setup_2
+  Setup_3
+  Setup_4
+  Setup_5
+  Setup_6
+  Setup_7
+  Setup_8
+  Setup_9
+  Setup_10
+  Setup_11
+  Setup_12
+  Setup_13
+%
+Fortran files:
+  shuffle.f
+  assembly_2d-2.f
+  putback.f
+%
+The process is as follows:
+  1) start with the 1002 circular 2D particles (in a very dense assembly).
+  2) "shuffle" the particle diameters.  That is, I use the same particle
+diameters, but assign the diameters to different particles (the original
+1002 diameters were randoly distributed).  This "shuffling" will of course
+cause some of the particles to greatly overlap.  So ....
+  3) Expand the periodic boundaries by a factor of 3.  This eliminates all
+of the overlaps between the particles.  But, of course, the assembly is
+now VERY loose, like a gas.
+  4) Turn off friction and compact the assembly using the OVAL program.
+This process take 13 steps.  The first steps are very rapid compression.
+The final steps are very, very slow compression so that many contacts can
+be formed.  I learned a lot about doing this while preparing the 3D ovoid
+assemblies.
+  5) Do steps 1-4 again and again, creating one new assembly with every
+loop.
+%
+The process creates completely different particle arrangements, but with
+the exact same distribution of particle diameters and the exact same void
+ratio.  There are some differences in the final number of contacts and the
+final stress, but it is impossible to get everything the same.

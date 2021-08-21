@@ -1,0 +1,110 @@
+#!/bin/bash
+#
+echo 'Running Setup_1 ... (output to output_1)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_1 << EOF
+Setup_1
+Dtemp_2
+EOF
+#
+echo 'Put particles back into the home cell'
+nice ~/Simulations/oval/putback.run > /dev/null << EOF
+DSetup_1 
+DSetup_1p
+EOF
+#
+echo 'Running Setup_2 ... (output to output_2)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_2 << EOF
+Setup_2
+DSetup_1p
+EOF
+#
+echo 'Put particles back into the home cell'
+nice ~/Simulations/oval/putback.run > /dev/null << EOF
+DSetup_2
+DSetup_2p
+EOF
+#
+echo 'Running Setup_3 ... (output to output_3)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_3 << EOF
+Setup_3
+DSetup_2p
+EOF
+#
+echo 'Put particles back into the home cell'
+nice ~/Simulations/oval/putback.run > /dev/null << EOF
+DSetup_3
+DSetup_3p
+EOF
+#
+echo 'Running Setup_4 ... (output to output_4)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_4 << EOF
+Setup_4
+DSetup_3p
+EOF
+#
+echo 'Put particles back into the home cell'
+nice ~/Simulations/oval/putback.run > /dev/null << EOF
+DSetup_4
+DSetup_4p
+EOF
+#
+#
+echo 'Running Setup_5 ... (output to output_5)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_5 << EOF
+Setup_5
+DSetup_4p
+EOF
+#
+echo 'Put particles back into the home cell'
+nice ~/Simulations/oval/putback.run > /dev/null << EOF
+DSetup_5
+DSetup_5p
+EOF
+#
+echo 'Running Setup_6 ... (output to output_6)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_6 << EOF
+Setup_6
+DSetup_5p
+EOF
+#
+echo 'Running Setup_7 ... (output to output_7)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_7 << EOF
+Setup_7
+DSetup_6
+EOF
+#
+echo 'Running Setup_8 ... (output to output_8)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_8 << EOF
+Setup_8
+DSetup_7
+EOF
+#
+echo 'Running Setup_9 ... (output to output_9)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_9 << EOF
+Setup_9
+DSetup_8
+EOF
+#
+echo 'Running Setup_10 ... (output to output_10)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_10 << EOF
+Setup_10
+DSetup_9
+EOF
+#
+echo 'Running Setup_11 ... (output to output_11)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_11 << EOF
+Setup_11
+DSetup_10
+EOF
+#
+echo 'Running Setup_12 ... (output to output_12)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_12 << EOF
+Setup_12
+DSetup_11
+EOF
+#
+echo 'Running Setup_13 ... (output to output_13)'
+nice ~/Simulations/oval/oval-0.5.43-pgi > output_13 << EOF
+Setup_13
+DSetup_12
+EOF

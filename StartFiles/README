@@ -1,0 +1,53 @@
+This directory contains sample assemblies, which can be used
+as "startfiles" in an OVAL simulation.  The samples are given in the 
+ASCII D-file format.  The primary attributes of these assemblies 
+are as follows:
+
+               & Particle & No. of    & Void    & Coord. & Dimensionless 
+File Name      &   Type   & Particles & Ratio   & Number &  Overlap      
+
+Dcircls_1002_2 & circles  & 1002      & 0.18042 & 3.820  & 0.000310 
+Dcircls_4008_2 & circles  & 4008      & 0.17911 & 3.813  & 0.000319 
+Dovals_1002_1d & ovals    & 1002      & 0.18382 & 3.784  & 0.000232 
+Dovals_1002_2d & ovals    & 1002      & 0.12890 & 4.880  & 0.000158 
+Dovals_4008_1d & ovals    & 4008      & 0.18479 & 3.777  & 0.000210 
+Dovals_4008_2d & ovals    & 4008      & 0.12788 & 4.733  & 0.000172 
+Dsphere_1800   & spheres  & 1800      & 0.53583 & 5.700  & 0.000319 
+DOblate_1800   & ovoids   & 1800      & 0.41520 & 8.214  & 0.000165
+DProlate_1800  & ovoids   & 1800      & 0.41223 & 8.438  & 0.000201
+DObProlate_1800& ovoids   & 1800      & 0.41367 & 8.351  & 0.000201
+%
+Each assembly is roughly square (or cubical) and with an isotropic fabric.
+They were created by isotropically compressing a sparse assembly with
+friction turned off.  The assemblies contain a range of particles sizes.
+The dimensions of the particles and the entire assemblies have
+been scaled so that the mean particle size $D_{50}$ in each assembly is 1.00.
+(Here, we speak of the mean particle size $D_{50}$ in the usual sense
+of geotechnical engineering:  a ``median'' diameter that partitions
+the assembly into two sets of particles, so that each set has an equal
+cumulative mass.) The aspect ratio of non-circular particles in the 2D 
+assemblies of ellipses and ovals is uniformly distributed between
+1.05 and 1.40, where the aspect ratio is 
+$r_{\mathrm{major}} / r_{\mathrm{minor}}$.
+%
+The void ratio is a measure of the packing density of 
+a granular assembly.  The assemblies of circles and spheres are fairly 
+dense for such particle shapes.  Both loose and dense assemblies of 
+ovals are provided.  The coordination numbers shown are computed as
+twice the number of contacts divided by the number of particles).
+Among the attributes listed, the dimensionless overlap probably 
+has the greatest effect on the speed and performance of a simulation.
+The dimensionless overlaps, which are quite small, were computed
+by dividing the average overlap at particle contacts by the
+mean particle size, $D_{50}$.  Small overlaps more closely resemble 
+those in real granular materials, which are often composed of hard granules.
+During simulations, however, small overlaps
+require slower deformation rates to assure the near quasi-static
+progression of particle rearrangements.
+%
+Note that the older Dcircls_1002 and Dcircls_4008 have been removed,
+since they were somewhat anisotropic.
+%
+The directory Series_circls_1002 contains an entire series of assemblies
+of 1002 circular particles, each having the same void ratio and the same
+particle sizes, but different particle arrangements.

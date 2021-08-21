@@ -1,0 +1,36 @@
+Prototype RunFile for the DEM program Oval
+       1         : algori   | the algorithm for advancing the particle positions (1 or 2)
+       1         : iinteg   | the integration algorithm (1 or 2)
+       0         : ncownt   | fequency for updating non-periodic boundaries (0)
+       0         : iout(2)  | output files with avg. def. and gradients in layers (0 or 1)
+       0         : iout(3)  | output files with avg. stresses within layers (0 or 1)
+       1         : istart   | type of file defining the initial configuration (1, 2, or 3)
+       1         : iend     | type of file to be created at end of the run (0, 1, 2, or 3)
+       0         : idef     | reference configuration for reporting deformations (0)
+   10000         : iupdtm   | max. no. of time steps between linked-list updates
+       0         : icirct   | compute and regularly update the particle graph (0 or 1)
+       0         : ifree1   | unused input integer (0) A placeholder for added features
+       0         : ifree2   | unused input integer (0) A placeholder for added features
+       0         : ifree3   | unused input integer (0) A placeholder for added features
+     1.00        : kn       | normal contact stiffness (force/indentation)
+     1.00        : kratio   | ratio of tangential/normal contact stiffnesses
+     0.          : frict    | coefficient of friction at particle contacts
+     0.          : frictw   | coefficient of friction between particles and wall
+     0.          : rho      | the mass density of the particle material
+     0.400       : sep      | threshold separation during the near-neighbor searches
+     0.0100      : pcrit(1) | viscosity coefficient for translational body damping
+     0.0100      : pcrit(2) | viscosity coefficient for rotational body damping
+     0.          : pcrit(3) | viscosity coefficient for contact damping
+     0.55        : xseed    | seed for assigning random initial velocities (when motion=1)
+     0.005       : rmsvel   | rms initial velocity (when motion=1)
+     0.          : rfree1   | unused input value (0) A placeholder for added features
+     0.          : rfree2   | unused input value (0) A placeholder for added features
+     0.          : trans    | rotate the entire assembly prior to the simulation run
+     0.          : dt       | time increment
+                                                                                         imicro
+       ************  Deformation-Stress Path Segments  **********   krotat           iflexc |             iplot
+        (100000)   (10000)   (1000)    (100)      (10)      (1)       |            idump  | |ibodyf    ipts2 |
+icontr| rate_11 | rate_22 | rate_33 | rate_12 | rate_13 | rate_23 igoal   finalv  ipts |  | | |  defdot  |   |
+------|---------|---------|---------|---------|---------|---------|--|-|---------|----|-|--|-|--|------|----|--|
+000000   0.        0.           0.         0.       0.        0.   70 0     500.   100 0  0 0  0    0.    0   0
+000000  -1.20e-7  -1.20e-7      0.         0.       0.        0.   70 0   50000.  2000 0  0 0  0    0.    0   0
