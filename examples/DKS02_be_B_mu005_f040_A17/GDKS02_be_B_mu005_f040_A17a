@@ -1,0 +1,35 @@
+The file of general information for this simulation
+    108          : gvers       | version of this file type
+     17          : nRVEs       | number of RVEs in the soil column, integer
+      1          : nLayers     | number of stratigraphic layers
+      0          : iABfile     | whether to cread A & B files in dempla run
+      1          : iPreProcess | is it necessary to do pre-processing
+      0.483d0    : BaseDepth   | depth of rock below ground surface, m
+      1.000d0    : WaterDepth  | depth of water below ground surface, m
+      8.00d-3    : visc_w      | viscocity of water, Pa*s
+     18.5d-6     : visc_a      | viscocity of air, Pa*s
+    998.23d0     : rho_w       | water density, kg/m^3
+      1.18d0     : rho_a       | air density, kg/m^3 (free air above ground)
+    196.140d0    : grav        | acceleration of gravity, m/s^2
+      1.290d0    : centrifuge  | intertial mass factor for centrifuges
+      1.0d-6     : ddef_target | strain-step during a dempla DEM step
+      1          : nDempla_out | interval for dempla results
+     20          : nDEM_out    | interval for DEM results during dempla
+      0.50d0     : C_factor    | adjustment to the dempla Courant number
+      0.         : Direct_soil | ground and rock strike (CCW from x1 toward x2)
+      0.         : Dip_soil    | ground and rock dip
+      0.         : Direct_water| water table strike (CCW from x1 toward x2)
+      0.         : Dip_water   | water table dip
+    200          : nTiltSteps  | DEM time steps to create slope
+    200          : nTiltEquil  | DEM time steps to equilibrate slope
+      0.001d0    : t_PostShake | post-shaking period of no rock motion
+    200.d0       : t_Setl      | post-shaking settlement (consolidation) time
+
+************ Additional Layer Information ************
+   lSat =   a special saturation when S_o=1?  (0,1,2)
+   xSat =   adjustment to p_wcav when S_o=1
+   k_geot = hydraulic conductivity, m/s (Q = k*i*A)
+   
+lSat|   xSat  |  k_geot |iCap|   xCap  |
+----|---------|---------|----|---------|
+  0   0.       0.0034d-2   0       0.   
