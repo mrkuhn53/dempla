@@ -79,7 +79,7 @@ function [Shape, np, init_e, ...
 %   run the script file "Afile_add_tabs"
     Skip_these_lines = 1;
     if ~Skip_these_lines
-      if isempty(findstr(OvalVersionLine, '\t'))
+      if isempty(strfind(OvalVersionLine, '\t'))
 %-------find and run the script file, and place the corrected version in
 %       the "tmp" directory
         TmpA_file_Name = strcat(TmpDirectory,  'AtmpOctave.txt');
@@ -353,7 +353,7 @@ function [Shape, np, init_e, ...
     elseif AFileVersion==112 || AFileVersion==142 || AFileVersion==152
 %
       if AFileVersion==142
-        nFields = 46;
+        nFields = 47;
       elseif AFileVersion==152
         nFields = 47;
       else

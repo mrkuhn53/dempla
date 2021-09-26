@@ -148,7 +148,8 @@ function [Time, Def11, Def22, Def33, Def12, Def13, Def23, ...
 %
   BFileName;
 %
-if BFileType == 10 || BFileType == 20 || BFileType == 30
+if BFileType == 10 || BFileType == 20 || BFileType == 30 
+%
   TEMPLATE = '%e %e %e %e %e %i\n %e %e %e %e %e %e\n %e %e %e %e %e %e %f';
 %
   if BFileType == 10
@@ -202,7 +203,16 @@ if BFileType == 10 || BFileType == 20 || BFileType == 30
 %
 elseif BFileType == 11 || BFileType == 17 ...
     || BFileType == 21 || BFileType == 27 ...
-    || BFileType == 31 || BFileType == 37
+    || BFileType == 31 || BFileType == 37 ...
+    || BFileType == 41 || BFileType == 47
+%
+  if BFileType == 27 || BFileType == 37 || BFileType == 47
+%   skip lines 2 thru 4 of header information
+    fgetl(Bfile);
+    fgetl(Bfile);
+    fgetl(Bfile);
+  end
+%
   TEMPLATE = cstrcat('%e %e %e %e %e %i\n %e %e %e %e %e\n', ...
                      ' %e %e %e %e %e\n %e %e %e %e %e\n %e %e %e %e %f');
   if BFileType == 11 || BFileType == 17
@@ -210,7 +220,7 @@ elseif BFileType == 11 || BFileType == 17 ...
   elseif BFileType == 21 || BFileType == 27
     TEMPLATE = cstrcat(TEMPLATE, '\n %e %e %e %e');
     nFields = 30;
-  elseif BFileType == 31 || BFileType == 37
+  elseif BFileType == 31 || BFileType == 37 || BFileType == 47
     TEMPLATE = cstrcat(TEMPLATE, '\n %e %e %e %e %e');
     nFields = 31;
   end
@@ -261,7 +271,14 @@ elseif BFileType == 11 || BFileType == 17 ...
   end
 %
   ndim = 3;
-elseif BFileType == 12 || BFileType == 22 || BFileType == 32
+elseif BFileType == 12 || BFileType == 22 || BFileType == 32 || BFileType == 42
+%
+  if BFileType == 22 || BFileType == 32 || BFileType == 42
+%   skip lines 2 thru 4 of header information
+    fgetl(Bfile);
+    fgetl(Bfile);
+    fgetl(Bfile);
+  end
 %
 % A template that skips over data that is zero
   TEMPLATE = cstrcat( ...
